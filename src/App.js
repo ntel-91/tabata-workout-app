@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Timer from './components/Timer.js'
+import TimerContainer from './components/TimerContainer.js'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Timer/>
+        <TimerContainer/>
         <a
           className="App-link"
           href="https://reactjs.org"
